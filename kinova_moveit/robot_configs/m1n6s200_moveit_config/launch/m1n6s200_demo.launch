@@ -1,5 +1,6 @@
 <launch>
   <param name="robot_type" value="m1n6s200" />
+  
   <param name="/pick_place_demo/arm/solve_type" value="Manipulation2" />
   <param name="/pick_place_demo/arm/kinematics_solver_timeout" value="0.05" />
 

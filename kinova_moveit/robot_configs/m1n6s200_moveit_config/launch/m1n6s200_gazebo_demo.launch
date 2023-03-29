@@ -1,5 +1,4 @@
 <launch>
-
   <param name="robot_type" value="m1n6s200" />
   <param name="robot_connected" value="false" />
   <param name="/pick_place_demo/arm/solve_type" value="Manipulation2" />
@@ -17,6 +16,15 @@
   <include file="$(find m1n6s200_moveit_config)/launch/planning_context.launch">
     <arg name="load_robot_description" value="true"/>
   </include>
+
+
+
+
+
+
+
+
+
 
   <!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
   <include file="$(find m1n6s200_moveit_config)/launch/move_group_m1n6s200.launch">
